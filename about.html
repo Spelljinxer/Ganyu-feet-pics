@@ -1,0 +1,71 @@
+<!--AUTHOR: REIDEN RUFIN-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport>" content = "width=device-width, initial-scale=1.0">
+        <title>Ganyu Feet Pics</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,800;1,400;1,600&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class = "sub-header">
+            <nav>
+                <a href = "index.html"><img src = "images/logo.png"></a>
+                <div class="nav-links" id = "navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href = "./index.html">HOME</a></li>
+                        <li><a href = "./about.html">ABOUT</a></li>
+                        <li><a href = "">FEET PICS</a></li>
+                        <li><a href = "">BUILDS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick = "showMenu()"></i>
+            </nav>
+            <h1>About Ganyu</h1>
+        </section>
+        
+        <!--About Ganyu Content-->
+        <section class="about-ganyu">
+            <div class="row">
+                <div class="about-ganyu-col">
+                    <h1>Plenilune Glaze</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sapiente magni officiis quae, doloribus voluptatum exercitationem porro laborum modi.</p>
+                    <a href = "" class = "hero-btn blue-btn">BUTTON 1</a>
+                </div>
+                <div class="about-ganyu-col">
+                    <img src = "images/about2.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Spelljinxer</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Deleniti recusandae perspiciatis eveniet.</p>
+            <div class="icons">
+                <a href = "https://anilist.co/user/Kyokino/"><img src = "images/ANILIST.png"></a>
+                <a href = "https://i.imgur.com/TyPSTwb.png"><img src = "images/DISCORD.png"></a>
+                <a href = "https://github.com/Spelljinxer"><img src = "images/github.png"></a>
+            </div>
+        </section>
+
+        <section class="banner">
+           <p>Footer</p>
+        </section>
+        <!--JavaScript Code-->  
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                function showMenu() {
+                    navLinks.style.right = "0";
+                }
+                function hideMenu() {
+                    navLinks.style.right = "-200px";
+                }
+            </script>
+
+    </body>
+</html>
