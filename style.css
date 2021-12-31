@@ -345,3 +345,60 @@ h3{
 .blue-btn:hover{
     color: white;
 }
+
+/*-------------------------------------------FEET PAGE-------------------------------*/
+.sub-header-feet{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/feet-pics.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header-feet h1{
+    color: #ffff;
+    margin-bottom: 200px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.feet-list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.feet-list-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.feet-list-col img{
+    width: 80%;
+    border-style: solid;
+    border-color:rgba(79, 135, 237, 1);
+}
+.sub-text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.sub-text-box h1{
+    font-size: 35px;
+}
+.sub-text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: rgba(255, 251, 253, 0.6);
+    position: relative;
+    bottom: 185px;
+}
