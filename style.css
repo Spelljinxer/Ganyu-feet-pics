@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .header{
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/header.jpg);
     background-position: center;
@@ -164,21 +164,21 @@ h3{
     }
 }
 
-/* feet */
-.feet{
+/* more */
+.more{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-.feet-col{
+.more-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.feet-col img{
+.more-col img{
     width: 100%;
 }
 .layer{
@@ -201,7 +201,9 @@ h3{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
+    position: relative;
+
 }
 .another-col img{
     display: block;
@@ -209,9 +211,18 @@ h3{
     margin-right: auto;
     width: 100%;
     border-radius: 10px;
+    position: relative;
 }
+
+.another-col:hover{
+    opacity: 0.7;
+}
+
+
 .another-col p{
     padding: 0;
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 1);
 }
 .another-col h3{
     margin-top: 16px;
