@@ -9,3 +9,5 @@ The boredom killer
 - [ ] Finish "About" Page
 - [ ] Fix quotes css on main
 - [ ] Finish "Builds" Page
+- [ ] Separate CSS files
+- [ ] Image references to cloud instead of local storage
