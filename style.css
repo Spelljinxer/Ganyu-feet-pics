@@ -157,7 +157,7 @@ p{
     justify-content: space-between;
 }
 .row-2{
-    margin-top: 5px;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -355,12 +355,14 @@ h3{
     width: 80%;
     margin: auto;
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 12px;
 }
+
 .about-ganyu-col{
     flex-basis: 48%;
     padding: 30px 2px;
 }
+
 .about-ganyu-col img{
     width: 100%;
 }
@@ -379,6 +381,65 @@ h3{
 }
 .blue-btn:hover{
     color: white;
+}
+
+
+.abilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.abilities-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+    display: inline-block
+}
+.abilities img{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-style: oblique;
+}
+h5{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-style: initial;
+}
+.abilities-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+@media(max-widht: 700px){
+    .row{
+        flex-direction: column;
+    }
 }
 
 /*-------------------------------------------FEET PAGE-------------------------------*/
