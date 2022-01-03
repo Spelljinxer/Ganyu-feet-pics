@@ -407,13 +407,15 @@ p{
     justify-content: space-between;
 }
 .abilities-col{
+    display: inline-block;
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     transition: 0.5s;
-    display: inline-block
+    margin: 0 auto;
+   
 }
 .abilities img{
     width: 20%;
@@ -426,6 +428,14 @@ h3{
     margin: 10px 0;
     font-style: oblique;
 }
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-style: oblique;
+    font-size: 110%;
+}
+
 h5{
     text-align: center;
     font-weight: 900;
